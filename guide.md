@@ -1,6 +1,6 @@
 # Digispark
 
-## Programmable circuit board. Acting as a keyboard, and therefore, undetectable by antivirus.
+## Programmable circuit board. Acting as a keyboard, and therefore, undetectable by antivirus. Physical attacks are the most effective and dangerous. Human Interface Device (HID) attacks are made to compromise a client, you just need to insert a preprogrammed USB stick that is read as an HID, in this case a keyboard that will type and execute the payload.
 
 ### Setting up:
 1. IDE download: https://www.arduino.cc/en/software
